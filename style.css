@@ -243,5 +243,26 @@ p {
 .post{
     display: flex;
     flex-direction: column;
-
+    border: 1px solid #75787a;
+    background-color: #75787a;
+    border-radius: 10%;
+    padding: 10px;
+}
+.post-top{
+    display: flex;
+    align-items: center;
+    border: 1px solid #75787a;
+    border-bottom: 1px solid #202122;
+}
+.post-top img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.post-bottom{
+    display: flex;
+}
+.postshort{
+    display: flex;
 }
